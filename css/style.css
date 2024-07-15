@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/* Coleur personnaliser et font */
+.font-Ubuntu {
+    font-family: 'Ubuntu';
+}
+
+.bg-card-color {
+  background: #F2F4F6;  
+}
+
+.bg-card-color > img {
+    border-radius: 100%;
+    height: 50%;
+    width: 100%;
+}
+
+/* Coleur personnaliser et font */
+
+body {
+    min-width: 233px;
+}
+
+/* Navbar Style */
+.navbar-brand img {
+    width: 70px;
+}
+
+.bg-navbar {
+    background-color: white !important;
+}
+
+.navbar {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+/* panier */
+.cmd>.nbr {
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -10px;
+    left: -10px;
+}
+
+/* Fin Navbar */
+
+/* Section 1 */
+#sect1 {
+    background: linear-gradient(90deg, rgba(9,121,116,1) 0%, rgba(255,255,255,1) 3%, rgba(77,225,233,1) 100%);
+    height: 100vh;
+}
+
+.img-logo {
+  width: 150px;
+}
+
+.titre {
+    font-size: calc(22px + 1vw);
+}
+
+.info {
+    border-radius: 10px 0 10px 0;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+/* Carsoule */
+
+
+.img-carousel {
+ width: 100%;
+}
+
+/* sect 3 */
+#sect3{
+    background: #ebf1f1d0;
+}
+
+.tel1{
+    width: 82%;
+}
+
+/* sect 4 */
+#sect4 {
+    height: 50vh;
+}
+
+.carousel-inner {
+    height: 250px !important;
+}
+/* Responsive  */
+
+/* Section 1 */
+@media screen and (max-width:768px) {
+    .sect1 {
+        height: 120vh;
+    }
+}
