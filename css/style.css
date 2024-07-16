@@ -15,14 +15,28 @@
     width: 100%;
 }
 
+.bg-carousel {
+    background:  #D0D3D4;
+}
+
+.bg-footer {
+    background: #fdfdfd;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.bg-form {
+    background: #dfe9f3;
+}
+
 /* Coleur personnaliser et font */
 
 body {
-    min-width: 233px;
+    min-width: 360px;
 }
 
 /* Navbar Style */
-.navbar-brand img {
+.navbar-brand img,
+.logo img {
     width: 70px;
 }
 
@@ -77,10 +91,11 @@ body {
 
 
 .img-carousel {
- width: 100%;
+ width: 50%;
+ border-radius: 100%;
 }
 
-/* sect 3 */
+/* section 3 */
 #sect3{
     background: #ebf1f1d0;
 }
@@ -89,7 +104,7 @@ body {
     width: 82%;
 }
 
-/* sect 4 */
+/* section 4 */
 #sect4 {
     height: 50vh;
 }
@@ -97,11 +112,42 @@ body {
 .carousel-inner {
     height: 250px !important;
 }
+
 /* Responsive  */
 
 /* Section 1 */
 @media screen and (max-width:768px) {
     .sect1 {
         height: 120vh;
+    }
+}
+
+
+/* 
+  Partie connexion
+*/
+
+#sect-connex{
+    height: 74vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Partie contact */
+#sect-cont{
+    height: 76vh;
+}
+
+
+/* Responsive page connexion */
+@media screen and (max-width: 768px) {
+    .shadow{
+        box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(0, 0, 27) 0px 0px 0px 6px !important;
+    }
+
+    #sect-connex,
+    #sect-cont{
+        height: 95vh;
     }
 }

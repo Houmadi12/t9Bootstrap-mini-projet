@@ -2,7 +2,7 @@
 let navbar = document.querySelector(".navbar");
 
 window.addEventListener('scroll', () => {
-    if(window.scrollY > 70){
+    if(window.scrollY > 0){
         navbar.classList.add('bg-navbar');
     } else {
         navbar.classList.remove('bg-navbar');
